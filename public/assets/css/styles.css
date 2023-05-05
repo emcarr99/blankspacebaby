@@ -1,8 +1,34 @@
+:root {
+  --green: #C8E9A0;
+  --orange: #F7A278;
+  --brown: #351E29;
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  background-color: var(--green) !important;
+}
+
+.textColor {
+  color: var(--brown) !important;
+  font-weight: bold !important;
+}
+
+
+.btn {
+  color: var(--brown);
+  background-color: var(--orange);
+  border: none;
+}
+
+h1, h4 {
+  color: var(--brown) !important;
 }
 
 .save-note {
@@ -76,3 +102,4 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
